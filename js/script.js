@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     carregarEntrevistas();
 });
 
-document.getElementById('salvar').addEventListener('click', async () => {
+document.getElementById('entrevista-form').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    
     const empresa = document.getElementById('empresa').value.trim();
     const data = document.getElementById('data').value;
     const observacoes = document.getElementById('observacoes').value.trim();

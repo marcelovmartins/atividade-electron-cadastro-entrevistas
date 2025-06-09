@@ -1,7 +1,7 @@
 {
   "name": "atividade-electron-cadastro-entrevistas",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "./js/main.js",
   "scripts": {
     "start": "electron .",
     "dev": "electronmon ."
@@ -18,3 +18,4 @@
     "mysql2": "^3.14.1"
   }
 }
+
